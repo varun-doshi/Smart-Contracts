@@ -17,9 +17,10 @@ The Contract contains the following functions:
 
 
 ## 2. Lottery Contract using Hash Function
-### [Check the code here](
-This is a Lottery Contract where users can participate by putting in a specified amount of Ether.
-This contract requires a minimum of 3 players before the Lottery can start.
+### [Check the code here](https://github.com/varun-doshi/Smart-Contracts/blob/main/Lottery.sol)
+This is a Lottery Contract where users can participate by putting in a specified amount of Ether. <br/>
+This contract requires a minimum of 3 players before the Lottery can start. <br/>
+<br/>
 Functions in the contract:
 * `enterLottery()` : Users can enter the lottery by paying 1 Ether.
 * `getBalance()` : The balance in the contract is publicly viewable by everyone.
