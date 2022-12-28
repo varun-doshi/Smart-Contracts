@@ -13,3 +13,16 @@ The Contract contains the following functions:
 * `withdraw()` :For withdrawing contract balance.
 * `_pause()` :For pausing all transactions.
 * `_unpause()` :For resuming all transactions.
+
+
+
+## 2. Lottery Contract using Hash Function
+### [Check the code here](
+This is a Lottery Contract where users can participate by putting in a specified amount of Ether.
+This contract requires a minimum of 3 players before the Lottery can start.
+Functions in the contract:
+* `enterLottery()` : Users can enter the lottery by paying 1 Ether.
+* `getBalance()` : The balance in the contract is publicly viewable by everyone.
+* `allPlayers()` : Participating players are publicly viewable by everyone.
+* `random()` : Internal function that uses Hash Function Keccak256 to get a random number.
+* `getWinner()` : Called by Manager to find the winner of the lottery and transfer the Eth to respective address.
