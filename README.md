@@ -15,8 +15,20 @@ The Contract contains the following functions:
 * `_unpause()` :For resuming all transactions.
 
 
+## 2. ERC-20 Token Standard
+### [Check the code here](https://github.com/varun-doshi/Smart-Contracts/blob/main/SolidityPlaybook.sol) <br/>
+The Contract contains the following functions:
+* `mint()` :Mint tokens to address
+* `burn()` :Function for users to "destroy" their tokens
+* `transfer()` :Function to transfer tokens from called to "recipient" 
+* `approve()` :Approve "spender" to use "amount" of your tokens on your behalf
+* `transferFrom()` :Approved user "sender" sends "amount" from your account to "recipient"
+* `pause()` :Used to pause specific functions which are marked as "whenNotPaused"
+* `unpause()` :Resumes all functions
 
-## 2. Lottery Contract using Hash Function
+
+
+## 3. Lottery Contract using Hash Function
 ### [Check the code here](https://github.com/varun-doshi/Smart-Contracts/blob/main/Lottery.sol)
 This is a Lottery Contract where users can participate by putting in a specified amount of Ether. <br/>
 This contract requires a minimum of 3 players before the Lottery can start. <br/>
