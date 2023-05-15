@@ -2,7 +2,14 @@
 
 This Repository contains compiled Smart Contracts.
 
-## 1. ERC-721 Token Standard
+
+## 1. Hello World Smart Contract
+### [Check the code here](https://github.com/varun-doshi/Smart-Contracts/blob/main/HelloWorld.sol) <br/>
+The Contract contains the following functions:
+* `setText()` :Set new value of "text" state variable
+* `getText()` :Fetch the value of "text" variable
+
+## 2. ERC-721 Token Standard
 ### [Check the code here](https://github.com/varun-doshi/Smart-Contracts/blob/main/Vjacs.sol) <br/>
 The Contract contains the following functions:
 * `publicMint()` :Mint function for the general public
@@ -15,7 +22,7 @@ The Contract contains the following functions:
 * `_unpause()` :For resuming all transactions.
 
 
-## 2. ERC-20 Token Standard
+## 3. ERC-20 Token Standard
 ### [Check the code here](https://github.com/varun-doshi/Smart-Contracts/blob/main/SolidityPlaybook.sol) <br/>
 The Contract contains the following functions:
 * `mint()` :Mint tokens to address
@@ -28,7 +35,7 @@ The Contract contains the following functions:
 
 
 
-## 3. Lottery Contract using Hash Function
+## 4. Lottery Contract using Hash Function
 ### [Check the code here](https://github.com/varun-doshi/Smart-Contracts/blob/main/Lottery.sol)
 This is a Lottery Contract where users can participate by putting in a specified amount of Ether. <br/>
 This contract requires a minimum of 3 players before the Lottery can start. <br/>
